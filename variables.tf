@@ -25,3 +25,12 @@ variable "region" {
 variable "base_domain" {
   type        = staging
 }
+variable "openstack_username" {}
+variable "openstack_password" {}
+variable "openstack_tenant_name" {}
+variable "openstack_auth_url" {}
+variable "openstack_region" {}
+
+variable "openstack_domain_name" { default = "default" }
+variable "openstack_user_domain_name" { default = "default" }
+variable "openstack_project_domain_name" { default = "default" }
